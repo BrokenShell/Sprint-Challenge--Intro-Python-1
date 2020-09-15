@@ -26,7 +26,7 @@ class City:
 # should not be loaded into a City object.
 
 
-def cityreader(file_name='cityreader/cities.csv'):
+def cityreader(file_name='cities.csv'):
     output = []
     with open(file_name, 'r') as file:
         reader = csv.reader(file)
